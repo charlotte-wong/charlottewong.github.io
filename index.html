@@ -56,7 +56,7 @@
 
   .nav-links a {
     font-family: 'EB Garamond', serif;
-    font-size: 0.85rem;
+    font-size: 1rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--mid);
@@ -84,7 +84,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.7rem;
-    font-size: 0.65rem;
+    font-size: 0.96rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--accent);
@@ -111,7 +111,7 @@
   h1 em { font-style: italic; color: var(--accent); display: block; letter-spacing: 0.08em; }
 
   .hero-bio {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     line-height: 1.88;
     color: var(--mid);
     max-width: 420px;
@@ -122,7 +122,7 @@
 
   .btn {
     font-family: 'EB Garamond', serif;
-    font-size: 0.82rem;
+    font-size: 0.96rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     text-decoration: none;
@@ -211,7 +211,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.65rem;
-    font-size: 0.62rem;
+    font-size: 0.93rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--accent);
@@ -222,7 +222,7 @@
 
   .s-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2.2rem, 3.8vw, 3.4rem);
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
     color: var(--ink);
     line-height: 1.1;
     font-weight: 300;
@@ -248,18 +248,21 @@
   .p-row:hover { padding-left: 0.5rem; }
 
   .p-num {
-    font-family: 'DM Serif Display', serif;
-    font-size: 2rem;
-    color: var(--accent);
-    line-height: 1;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    color: var(--ink);
+    line-height: 1.4;
+    letter-spacing: 0.08em;
   }
 
   .p-mo {
-    font-size: 0.58rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--light);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--accent);
     display: block;
+    line-height: 1;
+    letter-spacing: 0.03em;
   }
 
   .p-title {
@@ -270,13 +273,27 @@
     font-weight: 300;
   }
 
-  .p-sub { font-size: 0.82rem; color: var(--mid); font-family: 'EB Garamond', serif; }
+  .p-sub { font-size: 0.96rem; color: var(--mid); font-family: 'EB Garamond', serif; }
   .p-sub strong { color: var(--accent); font-weight: 500; }
 
-  .p-place { font-size: 0.68rem; color: var(--light); text-align: right; line-height: 1.6; }
+  .p-place { font-size: 0.84rem; color: var(--light); text-align: right; line-height: 1.6; }
 
   /* RESUME */
-  #resume { background: var(--bg); }
+  #accompanying { background: var(--bg); }
+  #resume { background: var(--white); }
+
+  .yr-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: var(--ink);
+    padding: 2.5rem 0 0.6rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--border);
+    letter-spacing: 0.05em;
+  }
+
+  .yr-heading:first-child { border-top: none; padding-top: 0; margin-top: 0; }
 
   .r-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; }
 
@@ -296,7 +313,7 @@
   .r-item { margin-bottom: 1.5rem; }
 
   .r-item .yr {
-    font-size: 0.6rem;
+    font-size: 0.76rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--accent);
@@ -311,12 +328,12 @@
     font-weight: 300;
   }
 
-  .r-item .ds { font-size: 0.75rem; color: var(--mid); line-height: 1.65; }
+  .r-item .ds { font-size: 0.9rem; color: var(--mid); line-height: 1.65; }
 
   .tags { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.4rem; }
 
   .tag {
-    font-size: 0.6rem;
+    font-size: 0.76rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--mid);
@@ -341,7 +358,7 @@
   }
 
   .r-cta p { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: var(--ink); }
-  .r-cta span { font-size: 0.73rem; color: var(--mid); display: block; margin-top: 0.15rem; }
+  .r-cta span { font-size: 0.88rem; color: var(--mid); display: block; margin-top: 0.15rem; }
 
   /* VIDEOS */
   #videos { background: var(--white); }
@@ -363,7 +380,7 @@
   .v-info { padding: 1.1rem 1.3rem 1.4rem; }
 
   .v-cat {
-    font-size: 0.56rem;
+    font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--accent);
@@ -380,14 +397,14 @@
     font-weight: 300;
   }
 
-  .v-info p { font-size: 0.7rem; color: var(--mid); }
+  .v-info p { font-size: 1rem; color: var(--mid); }
 
   /* CONTACT */
   #contact { background: var(--bg); }
 
   .c-wrap { display: grid; grid-template-columns: 1fr 1.4fr; gap: 6rem; align-items: start; }
 
-  .c-aside p { font-size: 0.86rem; line-height: 1.9; color: var(--mid); margin-bottom: 2.2rem; }
+  .c-aside p { font-size: 1rem; line-height: 1.9; color: var(--mid); margin-bottom: 2.2rem; }
 
   .c-line { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.3rem; }
 
@@ -397,13 +414,13 @@
     background: var(--white);
     display: flex; align-items: center; justify-content: center;
     color: var(--accent);
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     flex-shrink: 0;
   }
 
   .c-text strong {
     display: block;
-    font-size: 0.58rem;
+    font-size: 0.74rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--accent);
@@ -411,14 +428,14 @@
     margin-bottom: 0.2rem;
   }
 
-  .c-text span { font-size: 0.78rem; color: var(--mid); }
+  .c-text span { font-size: 0.93rem; color: var(--mid); }
 
   .c-form { display: flex; flex-direction: column; gap: 1.15rem; }
 
   .fg { display: flex; flex-direction: column; gap: 0.38rem; }
 
   .fg label {
-    font-size: 0.6rem;
+    font-size: 0.76rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--mid);
@@ -458,7 +475,7 @@
   .f-links { display: flex; gap: 2rem; list-style: none; flex-wrap: wrap; }
 
   .f-links a {
-    font-size: 0.62rem;
+    font-size: 0.93rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--light);
@@ -468,7 +485,7 @@
 
   .f-links a:hover { color: var(--ink); }
 
-  .f-copy { font-size: 0.65rem; color: var(--light); }
+  .f-copy { font-size: 0.96rem; color: var(--light); }
 
   /* ANIMATIONS */
   @keyframes fadeUp {
@@ -501,7 +518,7 @@
 
   @media (max-width: 560px) {
     .v-grid { grid-template-columns: 1fr; }
-    .nav-links a { font-size: 0.6rem; }
+    .nav-links a { font-size: 0.76rem; }
     .nav-links { gap: 1rem; }
   }
 </style>
@@ -512,7 +529,9 @@
   <a href="#home" class="nav-logo">Charlotte Wong</a>
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
+    <li><a href="#upcoming">Upcoming</a></li>
     <li><a href="#performances">Performances</a></li>
+    <li><a href="#accompanying">Accompanying</a></li>
     <li><a href="#resume">Résumé</a></li>
     <li><a href="#videos">Videos</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -553,31 +572,58 @@
   </div>
 </section>
 
-<!-- PERFORMANCES -->
-<section id="performances">
+<!-- UPCOMING -->
+<section id="upcoming" style="background: var(--white);">
   <div class="container">
     <div class="s-header reveal">
-      <div class="s-tag">On Stage</div>
-      <h2 class="s-title">Past <em>Performances</em></h2>
+      <div class="s-tag">Coming Up</div>
+      <h2 class="s-title">Upcoming <em>Performances</em></h2>
     </div>
 
     <div class="reveal d1">
       <div class="p-row">
         <div>
-          <div class="p-num">11</div>
-          <span class="p-mo">May 2025</span>
+          <span class="p-mo">Mar</span>
+          <div class="p-num">08</div>
         </div>
         <div>
-          <div class="p-title">Jacob Hill's Senior Recital — Accompanist</div>
-          <div class="p-sub"><strong>Accompanying</strong> · Senior Recital</div>
+          <div class="p-title">Flute Studio Performance &amp; Workshop</div>
+          <div class="p-sub"><strong>Accompanying</strong> · Flute Studio</div>
         </div>
-        <div class="p-place">Bay Area, CA</div>
+        <div class="p-place">Berkeley, CA</div>
       </div>
 
       <div class="p-row">
         <div>
+          <span class="p-mo">Apr</span>
+          <div class="p-num">25</div>
+        </div>
+        <div>
+          <div class="p-title">Natasha's Senior Recital</div>
+          <div class="p-sub"><strong>Accompanist</strong> · Senior Recital</div>
+        </div>
+        <div class="p-place">Berkeley, CA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERFORMANCES -->
+<section id="performances">
+  <div class="container">
+    <div class="s-header reveal">
+      <div class="s-tag">On Stage</div>
+      <h2 class="s-title">Previous <em>Performances</em></h2>
+    </div>
+
+    <div class="reveal d1">
+
+      <!-- 2025 -->
+      <div class="yr-heading">2025</div>
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Apr</span>
           <div class="p-num">11</div>
-          <span class="p-mo">Apr 2025</span>
         </div>
         <div>
           <div class="p-title">Stanford Piano Society Concert</div>
@@ -586,22 +632,24 @@
         <div class="p-place">Stanford, CA</div>
       </div>
 
+      <!-- 2024 -->
+      <div class="yr-heading">2024</div>
       <div class="p-row">
         <div>
+          <span class="p-mo">Oct</span>
           <div class="p-num">19</div>
-          <span class="p-mo">Oct 2024</span>
         </div>
         <div>
           <div class="p-title">Stars of Steinway Concert Series</div>
           <div class="p-sub"><strong>Solo</strong> · Featured Performer</div>
         </div>
-        <div class="p-place">Idaho</div>
+        <div class="p-place">Boise, ID</div>
       </div>
 
       <div class="p-row">
         <div>
+          <span class="p-mo">Apr</span>
           <div class="p-num">21</div>
-          <span class="p-mo">Apr 2024</span>
         </div>
         <div>
           <div class="p-title">UCBSO 100th Anniversary Benefit Gala</div>
@@ -612,8 +660,8 @@
 
       <div class="p-row">
         <div>
-          <div class="p-num">Jan</div>
-          <span class="p-mo">2024</span>
+          <span class="p-mo">Jan</span>
+          <div class="p-num">13</div>
         </div>
         <div>
           <div class="p-title">Beethoven Violin Sonata Op. 30 No. 2 &amp; Sonata Op. 10 No. 1</div>
@@ -622,10 +670,26 @@
         <div class="p-place">Palm Beach, FL</div>
       </div>
 
+      <!-- 2023 -->
+      <div class="yr-heading">2023</div>
       <div class="p-row">
         <div>
+          <span class="p-mo">Nov</span>
+          <div class="p-num">19</div>
+        </div>
+        <div>
+          <div class="p-title">UGCC Concert</div>
+          <div class="p-sub"><strong>Performance</strong> · Undergraduate Composers Club</div>
+        </div>
+        <div class="p-place">Berkeley, CA</div>
+      </div>
+
+      <!-- 2022 -->
+      <div class="yr-heading">2022</div>
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Dec</span>
           <div class="p-num">9–10</div>
-          <span class="p-mo">Dec 2022</span>
         </div>
         <div>
           <div class="p-title">Rachmaninoff — Piano Concerto No. 2</div>
@@ -636,20 +700,62 @@
 
       <div class="p-row">
         <div>
+          <span class="p-mo">May</span>
           <div class="p-num">8</div>
-          <span class="p-mo">May 2022</span>
         </div>
         <div>
-          <div class="p-title">Rachmaninoff — Piano Concerto No. 2</div>
+          <div class="p-title">Rachmaninoff — Piano Concerto No. 2, Mvt. III</div>
           <div class="p-sub"><strong>Concerto</strong> · Palo Alto Philharmonic</div>
         </div>
         <div class="p-place">Palo Alto, CA</div>
       </div>
 
+      <!-- 2021 -->
+      <div class="yr-heading">2021</div>
       <div class="p-row">
         <div>
+          <span class="p-mo">Dec</span>
+          <div class="p-num">8</div>
+        </div>
+        <div>
+          <div class="p-title">Solo Recital</div>
+          <div class="p-sub"><strong>Solo</strong> · Hertz Hall</div>
+        </div>
+        <div class="p-place">Berkeley, CA</div>
+      </div>
+
+      <!-- 2019 -->
+      <div class="yr-heading">2019</div>
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Dec</span>
           <div class="p-num">6</div>
-          <span class="p-mo">Jan 2018</span>
+        </div>
+        <div>
+          <div class="p-title">SF Presidio Concert Series</div>
+          <div class="p-sub"><strong>Invited Performance</strong> · SF Presidio</div>
+        </div>
+        <div class="p-place">San Francisco, CA</div>
+      </div>
+
+      <!-- 2018 -->
+      <div class="yr-heading">2018</div>
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Mar</span>
+          <div class="p-num">19</div>
+        </div>
+        <div>
+          <div class="p-title">SFCM Centennial Gala</div>
+          <div class="p-sub"><strong>Invited Performance</strong> · San Francisco Conservatory of Music</div>
+        </div>
+        <div class="p-place">San Francisco, CA</div>
+      </div>
+
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Jan</span>
+          <div class="p-num">6</div>
         </div>
         <div>
           <div class="p-title">Live From Here with Chris Thile — NPR</div>
@@ -658,20 +764,93 @@
         <div class="p-place">San Francisco, CA</div>
       </div>
 
+      <!-- 2012 -->
+      <div class="yr-heading">2012</div>
       <div class="p-row">
         <div>
-          <div class="p-num">Jul</div>
-          <span class="p-mo">2017</span>
+          <span class="p-mo">2012</span>
+          <div class="p-num">Feb</div>
         </div>
         <div>
-          <div class="p-title">XXIII International Chopin Festival "Lato z Chopinem"</div>
-          <div class="p-sub"><strong>International Festival</strong> · Sanatorium Marconi</div>
+          <div class="p-title">Haydn — Keyboard Concerto No. 11 in D Major, Mvt. III</div>
+          <div class="p-sub"><strong>Concerto</strong> · Holy Names University Preparatory Music Dept. Concerto Festival</div>
         </div>
-        <div class="p-place">Busko-Zdrój, Poland</div>
+        <div class="p-place">Oakland, CA</div>
       </div>
+
     </div>
   </div>
 </section>
+<section id="accompanying">
+  <div class="container">
+    <div class="s-header reveal">
+      <div class="s-tag">Collaborative Piano</div>
+      <h2 class="s-title">Accompanying <em>Work</em></h2>
+    </div>
+
+    <div class="reveal d1">
+      <div class="p-row">
+        <div>
+          <span class="p-mo">May</span>
+          <div class="p-num">11</div>
+        </div>
+        <div>
+          <div class="p-title">Jacob's Senior Recital</div>
+          <div class="p-sub"><strong>Accompanist</strong> · Senior Recital</div>
+        </div>
+        <div class="p-place">Bay Area, CA</div>
+      </div>
+
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Apr</span>
+          <div class="p-num">20</div>
+        </div>
+        <div>
+          <div class="p-title">Audrey's Senior Recital</div>
+          <div class="p-sub"><strong>Accompanist</strong> · Senior Recital</div>
+        </div>
+        <div class="p-place">Bay Area, CA</div>
+      </div>
+
+      <div class="p-row">
+        <div>
+          <span class="p-mo">2025</span>
+          <div class="p-num">Aug</div>
+        </div>
+        <div>
+          <div class="p-title">Mozart Requiem</div>
+          <div class="p-sub"><strong>Accompanist</strong> · Schola Cantorum</div>
+        </div>
+        <div class="p-place">Bay Area, CA</div>
+      </div>
+
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Present</span>
+          <div class="p-num">2024–</div>
+        </div>
+        <div>
+          <div class="p-title">Schola Cantorum — Gospel Concert &amp; Community Sing</div>
+          <div class="p-sub"><strong>Accompanist</strong> · Durufle &amp; Fauré Requiem</div>
+        </div>
+        <div class="p-place">Bay Area, CA</div>
+      </div>
+
+      <div class="p-row">
+        <div>
+          <span class="p-mo">Present</span>
+          <div class="p-num">2020–</div>
+        </div>
+        <div>
+          <div class="p-title">Cal Chorale</div>
+          <div class="p-sub"><strong>Staff Accompanist</strong> · UC Berkeley</div>
+        </div>
+        <div class="p-place">Berkeley, CA</div>
+      </div>
+
+    </div>
+  </div>
 
 <!-- RESUME -->
 <section id="resume">
@@ -804,8 +983,13 @@
         <div class="r-block reveal d2">
           <h3>Festivals</h3>
           <div class="r-item">
+            <div class="yr">2017</div>
+            <div class="nm">XXIII International Chopin Festival "Lato z Chopinem"</div>
+            <div class="ds">Sanatorium Marconi · Busko-Zdrój, Poland</div>
+          </div>
+          <div class="r-item">
             <div class="yr">2019</div>
-            <div class="nm">Music@Menlo Chamber Music Festival & Institute -- Young Performers Institute</div>
+            <div class="nm">Music@Menlo Chamber Music Festival &amp; Institute — Young Performers Program</div>
             <div class="ds"></div>
           </div>
           <div class="r-item">
@@ -911,7 +1095,7 @@
     </div>
 
     <div style="text-align:center;margin-top:3rem" class="reveal">
-      <a href="https://www.youtube.com/@CharlotteWong7774" target="_blank" class="btn btn-line">View All on YouTube →</a>
+      <a href="https://www.youtube.com/@YourChannelHere" target="_blank" class="btn btn-line">View All on YouTube →</a>
     </div>
   </div>
 </section>
