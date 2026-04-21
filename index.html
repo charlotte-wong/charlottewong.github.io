@@ -546,7 +546,7 @@
   <div class="hero-left">
     <div class="hero-tag">Accompanist · Performer · Chamber Musician · Teacher</div>
     <h1>Charlotte<br><em>Wong</em></h1>
-    <p class="hero-bio">I've been playing piano since I was 5 and grew up in the Bay Area. In 2024 I graduated from UC Berkeley with simultaneous degrees in biology and music. These days I mostly accompany — a choir, recitals, and chamber music with friends.</p>
+    <p class="hero-bio">I've been playing piano since I was 5 and grew up in the Bay Area. In 2024 I graduated from UC Berkeley with degrees in microbial biology and music. These days I mostly accompany — a choir, recitals, and chamber music with friends.</p>
     <div class="hero-btns">
       <a href="#performances" class="btn btn-fill">View Performances</a>
       <a href="#videos" class="btn btn-line">Watch Videos</a>
@@ -630,7 +630,7 @@
         </div>
         <div>
           <div class="p-title">Violin Studio Recital</div>
-          <div class="p-sub"><strong>Performance</strong> · Morrison Hall 250</div>
+          <div class="p-sub"><strong>Accompanist</strong> · Morrison Hall 250</div>
         </div>
         <div class="p-place">UC Berkeley</div>
       </div>
@@ -1157,22 +1157,22 @@
         </div>
       </div>
 
-      <form class="c-form reveal d2" onsubmit="handleSubmit(event)">
+      <form class="c-form reveal d2" action="https://formspree.io/f/xdaylpap" method="POST">
         <div class="fg">
           <label>Name</label>
-          <input type="text" placeholder="Your name" required />
+          <input type="text" name="name" placeholder="Your name" required />
         </div>
         <div class="fg">
           <label>Email</label>
-          <input type="email" placeholder="your@email.com" required />
+          <input type="email" name="email" placeholder="your@email.com" required />
         </div>
         <div class="fg">
           <label>Subject</label>
-          <input type="text" placeholder="Booking inquiry — Summer 2026" />
+          <input type="text" name="subject" placeholder="Booking inquiry — Summer 2026" />
         </div>
         <div class="fg">
           <label>Message</label>
-          <textarea rows="5" placeholder="Tell me about your event or inquiry…"></textarea>
+          <textarea name="message" rows="5" placeholder="Tell me about your event or inquiry…"></textarea>
         </div>
         <button type="submit" class="btn btn-fill" style="width:100%">Send Message</button>
       </form>
